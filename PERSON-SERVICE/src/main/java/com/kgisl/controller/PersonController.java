@@ -51,7 +51,7 @@ public class PersonController {
 				personRepository.save(person);
 			}
 		} else {
-			return new ResponseEntity<>("success", HttpStatus.BAD_REQUEST);
+			return new ResponseEntity<>("Invalid Request", HttpStatus.BAD_REQUEST);
 		}
 		return new ResponseEntity<>("success", HttpStatus.OK);
 	}
