@@ -53,7 +53,7 @@ public class PersonController {
 		} else {
 			return new ResponseEntity<>("success", HttpStatus.BAD_REQUEST);
 		}
-		return new ResponseEntity<>("success", HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>("success", HttpStatus.OK);
 	}
 	
 	/**
